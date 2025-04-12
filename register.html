@@ -73,24 +73,74 @@
             
 
             <label for="input15">Gender:</label>
-            <input type="text" id="gender" name="gender" placeholder="Gender"required> 
+            <!-- <input type="text" id="gender" name="gender" placeholder="Gender"required>  -->
+            <div class="select"> 
+            <select id="gender" name="gender" required>
+              <option>--Select--</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+             </select>
+            </div>  
+             <br/>
           
           <label><h2>Academic Information</h2> </label>
 
             <label for="input16">Program:</label>
-            <input type="text" id="program" name="program" placeholder="Program"required>
+            <!-- <input type="text" id="program" name="program" placeholder="Program"required> -->
+            <div class="select">
+              <select id="program" name="program" required>
+              <option>--Select--</option>
+              <option>B.Tech</option>
+              <option>B.Com</option>
+              <option>BSA</option>
+              <option>Other</option>
+             </select>
+            </div>
+             <br/>
 
             <label for="input17">Department:</label>
             <input type="text" id="department" name="department" placeholder="Department"required>
        
             <label for="input18">Mode of Study:</label>
-            <input type="text" id="studymode" name="studymode" placeholder="Mode Of Study" required>
+            <!-- <input type="text" id="studymode" name="studymode" placeholder="Mode Of Study" required> -->
+            <div class="select">
+               <select id="studymode" name="studymode" required>
+              <option>--Select--</option>
+
+              <option>Day Scholor</option>
+              <option>Hosteler</option>
+             </select>
+            </div>
 
             <label for="input19"> Academic Year:</label>
-            <input type="text" id="year" name="year" placeholder=" Academic Year"required>
+            <!-- <input type="text" id="year" name="year" placeholder=" Academic Year"required> -->
+            <div class="select">
+              <select id="year" name="year" required>
+              <option>--Select--</option>
+              <option>First Year</option>
+
+              <option>Second Year</option>
+
+              <option>Third Year</option>
+              <option>Final Year</option>
+
+
+             </select>
+            </div>
 
             <label for="input20">Previous Qualification:</label>
-            <input type="text" id="Qualification" name="Qualification" placeholder="Previous Qualification"required>
+            <!-- <input type="text" id="Qualification" name="Qualification" placeholder="Previous Qualification"required> -->
+            <div class="select"> 
+            <select id="Qualification" name="Qualification"required>
+              <option>--Select--</option>
+              <option>12th</option>
+              <option>Diploma</option>
+              <option>Other</option>
+
+
+             </select>
+            </div>
           
             <label><h2>  Document Upload Section</h2> </label>
 
@@ -130,7 +180,7 @@
 
             <label for="input32">Sign :</label>
             <input type="file" id="sign" name="sign" placeholder="Sign"required>
-            <label>Declaration: <br/> 
+            <label>Declaration: <br/><br/>
               By signing this form, I confirm that the information provided is accurate and complete. I agree to abide by the rules and regulations of the university. I authorize the university to verify the documents submitted for registration.</label>
               <br/><br/>
               <label for="input33">Today's Date :</label>

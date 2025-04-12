@@ -99,3 +99,11 @@ footer {
   text-align: center;
   text-transform: capitalize;
 }
+select{
+  border-radius: 15px;
+ 
+}
+.select{
+  display: flex;
+  flex-direction: column;
+}
