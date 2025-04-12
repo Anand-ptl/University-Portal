@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+
+  padding: 10px;
+  font-size: 25px;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+a:hover {
+  background-color: yellow;
+  font-size: 30px;
+  color: black;
+}
+.back {
+  background-color: red;
+  transition-property: all;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+}
+.navbar {
+  background-color: #4f657a;
+  width: 100%;
+
+  padding: 15px;
+}
+h3 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}

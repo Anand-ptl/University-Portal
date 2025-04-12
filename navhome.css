@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+  }
+  
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .ach{
+    background-color: navy;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 15px;
+   
+    
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    border-radius: 15px;
+
+
+  }
+  a:hover{
+    background-color: red;
+    font-size: 35px;
+
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .profile-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-weight: bold;
+    width: 40%;
+    color: #003366;
+  }
+  
+  .value {
+    width: 58%;
+    color: #333;
+    background-color: yellow
+    ;
+  }
+  
+  .profile-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+  }
+ 
+      

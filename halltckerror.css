@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ach {
+  background-color: navy;
+  display: inline-block;
+  margin-left: 15px;
+  border-radius: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+a:hover {
+  background-color: red;
+  font-size: 35px;
+}
+h1 {
+  font-size: 20px;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
