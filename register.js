@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
       for (let input of requiredInputs) {
         if (input.value.trim() === "") {
-          alert(`Please fill out the field: ${input.placeholder || input.id}`);
+          alert(`Please fill the form `);
           input.focus();
           return;
         }
