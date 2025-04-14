@@ -74,9 +74,14 @@ button {
   background-color: #007bff;
   color: white;
   border-radius: 15px;
+  transition-property: all;
+  transition-duration: .5s;
+
+  transition-timing-function: ease-in;
 }
 button:hover {
   background-color: blue;
+  font-size: 15px;
 }
 h2 {
   background-color: black;
