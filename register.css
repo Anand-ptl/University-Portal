@@ -99,11 +99,13 @@ footer {
   text-align: center;
   text-transform: capitalize;
 }
-select{
+select {
   border-radius: 15px;
- 
 }
-.select{
+.select {
   display: flex;
   flex-direction: column;
+}
+#mail {
+  text-transform: lowercase;
 }
